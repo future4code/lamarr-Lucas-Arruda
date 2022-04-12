@@ -1,0 +1,2 @@
+# Aprendizados da Semana
+Nessa semana aprendemos sobre como mexer no **terminal** e como funciona a linha de **códigos** que tem como abrir, criar e excluir diretórios ou arquivos com corretos comandos do terminal. Também aprendemos a usar o **git** e o **GitHub**, como criar novas branchs, commits, checkouts e a dar um **Pull Request**.
