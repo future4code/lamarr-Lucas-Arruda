@@ -11,12 +11,26 @@ function retornaTamanhoArray(array) {
 
 // EXERCÍCIO 02
 function retornaArrayInvertido(array) {
-  
+  const i = []
+  return array.reverse()
+  // DESAFIO
+//   const i1 = []
+//   var length = array.length;
+//   var left = null;
+//   var right = null;
+//   for (left = 0, right = length - 1; left < right; left += 1, right -= 1) {
+//     var temporary = array[left];
+//     array[left] = array[right];
+//     array[right] = temporary;
+//   }
+//   return array
+  // Esse desafio ficou parecido com o que eu pesquisei, mas entendi como ele funciona!
 }
 
 // EXERCÍCIO 03
 function retornaArrayOrdenado(array) {
-  
+let i = []
+  return array.sort()
 }
 
 // EXERCÍCIO 04
