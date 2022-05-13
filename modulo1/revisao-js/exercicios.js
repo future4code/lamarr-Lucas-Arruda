@@ -87,8 +87,14 @@ function retornaObjetoEntreDoisNumeros(num1, num2) {
 
 // EXERCÍCIO 08
 function retornaNPrimeirosPares(n) {
-   
+ const arrayPares = []
+ for (i = 0; arrayPares.length < n; i++) {
+   if (i % 2 === 0)
+   arrayPares.push(i)
+ }
+  return arrayPares
 }
+
 
 // EXERCÍCIO 09
 function classificaTriangulo(ladoA, ladoB, ladoC) {
@@ -133,4 +139,4 @@ function retornaArrayOrdenadoAlfabeticamente(consultas) {
 // EXERCÍCIO 15B
 function retornaArrayOrdenadoPorData(consultas) {
    
-}
+} 
