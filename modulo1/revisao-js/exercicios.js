@@ -29,7 +29,6 @@ function retornaArrayInvertido(array) {
 
 // EXERCÍCIO 03
 function retornaArrayOrdenado(array) {
-  const i = []
   return  array.sort(function(a, b){return a- b})
   //
   
@@ -37,24 +36,33 @@ function retornaArrayOrdenado(array) {
 
 // EXERCÍCIO 04
 function retornaNumerosPares(array) {
-if (i % 2 === 0){
-    return array.filter()
-  }
+  const novaArray = array.filter((numero) => {
+    return numero % 2 === 0
+  })
+  return novaArray
+  // let numerosPares = [];
+  // for (let i of array) {
+  //     if (i % 2 === 0) {
+  //         numerosPares.push(i)
+  //     }
+  // }
+  // return numerosPares
 }
+
 
 // EXERCÍCIO 05
 function retornaNumerosParesElevadosADois(array) {
- 
+  
 }
 
 // EXERCÍCIO 06
 function retornaMaiorNumero(array) {
-  
+
 }
 
 // EXERCÍCIO 07
 function retornaObjetoEntreDoisNumeros(num1, num2) {
-
+ 
 }
 
 // EXERCÍCIO 08
