@@ -52,7 +52,14 @@ function retornaNumerosPares(array) {
 
 // EXERCÍCIO 05
 function retornaNumerosParesElevadosADois(array) {
-  
+  const novoArray = []
+  for (let i of array){
+    if (i % 2 === 0){
+      const quadrado = Math.pow(i,2)
+      novoArray.push(quadrado)
+    }
+  }
+  return novoArray
 }
 
 // EXERCÍCIO 06
