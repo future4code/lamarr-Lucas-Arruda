@@ -112,17 +112,22 @@ function classificaTriangulo(ladoA, ladoB, ladoC) {
 
 // EXERCÍCIO 10
 function retornaSegundoMaiorESegundoMenor(array) {
-  
+  array.sort(function(a, b){return a- b})
+  const segundaPosicao = 1
+  const penultimaPosicao = array.length -2
+  const itemSegundaPosicao = array[segundaPosicao]
+  const itemPenultimaPosicao = array[penultimaPosicao]
+  return [itemPenultimaPosicao, itemSegundaPosicao] 
 }
 
 // EXERCÍCIO 11
 function retornaChamadaDeFilme(filme) {
-   
+
 }
 
 // EXERCÍCIO 12
 function retornaPessoaAnonimizada(pessoa) {
-   
+ 
 }
 
 // EXERCÍCIO 13A
@@ -142,10 +147,10 @@ function retornaContasComSaldoAtualizado(contas) {
 
 // EXERCÍCIO 15A
 function retornaArrayOrdenadoAlfabeticamente(consultas) {
-  
+
 }
 
 // EXERCÍCIO 15B
 function retornaArrayOrdenadoPorData(consultas) {
-   
+
 } 
