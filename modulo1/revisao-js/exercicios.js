@@ -156,5 +156,10 @@ function retornaArrayOrdenadoAlfabeticamente(consultas) {
 
 // EXERCÍCIO 15B
 function retornaArrayOrdenadoPorData(consultas) {
+  return consultas.sort(function(a, b){
+    const primeiraData = a.dataDaConsulta.split('/').reverse().join("/")
+    const segundaData = b.dataDaConsulta.split('/').reverse().join("/")
+    return primeiraData.localeCompare(segundaData)
+  })
 
 } 
