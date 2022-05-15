@@ -151,7 +151,7 @@ function retornaContasComSaldoAtualizado(contas) {
 
 // EXERCÍCIO 15A
 function retornaArrayOrdenadoAlfabeticamente(consultas) {
-
+  return consultas.sort(function(a, b){return a.nome.localeCompare(b.nome)})
 }
 
 // EXERCÍCIO 15B
