@@ -153,6 +153,7 @@ function retornaPessoasNaoAutorizadas(pessoas) {
 
 // EXERCÍCIO 14
 function retornaContasComSaldoAtualizado(contas) {
+  // nao consegui terminar :/
 }
 
 // EXERCÍCIO 15A
