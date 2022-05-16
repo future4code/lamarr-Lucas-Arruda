@@ -137,17 +137,19 @@ function retornaPessoaAnonimizada(pessoa) {
 
 // EXERCÍCIO 13A
 function retornaPessoasAutorizadas(pessoas) {
-   
+  //  const permissao = pessoas.filter((pessoa) =>{
+  //   return pessoa.altura > 1,5 && pessoa.idade > 14 && pessoa.idade <= 60
+  // })
+  // return permissao // nao esta funcionando, está retornando um objeto que nao era pra retornar.
 }
 
 // EXERCÍCIO 13B
 function retornaPessoasNaoAutorizadas(pessoas) {
-  
+ 
 }
 
 // EXERCÍCIO 14
 function retornaContasComSaldoAtualizado(contas) {
-
 }
 
 // EXERCÍCIO 15A
