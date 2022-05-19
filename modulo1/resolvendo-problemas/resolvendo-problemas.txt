@@ -1,0 +1,11 @@
+Os 7 passos fundamentais para resolucao de problemas sao: 
+- Ter atencao no enunciado;
+- Retirar informacoes relevantes;
+- Pensar entradas e saidas;
+-Fazer um esquema visual;
+- Criar código feio; 
+- Testar Forca-Bruta;
+- Refatorar.
+
+Seguindo cada passo em como se deve pensar para resolver problemas de programacao, se consegue elaborar cada problema ou até mesmo te fazer refletir se nao é hora de dar uma 
+pausa e parar um pouco o que está fazendo pra sua mente raciocinar melhor, fazendo voce voltar melhor pra refletir o porque do seu codigo nao estar fuincionando.
