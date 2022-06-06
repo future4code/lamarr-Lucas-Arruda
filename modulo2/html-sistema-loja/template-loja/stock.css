@@ -1,0 +1,15 @@
+header{
+    margin: 10px;
+    background-color: black;
+    border: 4px solid blue;
+    color: aliceblue;
+    
+}
+a{
+    background-color: black;
+    color: azure;
+}
+tr{
+    background-color: black;
+    color: azure;
+}
