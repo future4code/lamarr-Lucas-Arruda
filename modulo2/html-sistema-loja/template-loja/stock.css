@@ -5,11 +5,18 @@ header{
     color: aliceblue;
     
 }
-a{
+nav a{
     background-color: black;
     color: azure;
 }
 tr{
     background-color: black;
     color: azure;
+}
+.center{
+    text-align: center;
+}
+
+#blabla{
+    display: inline;
 }
