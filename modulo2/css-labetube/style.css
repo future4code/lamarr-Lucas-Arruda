@@ -17,18 +17,20 @@ input{
 }
 
 main{
-    display: grid;
-    height: 50vh;
-    width: 50vw;
-    margin: 0 auto;
-    border-radius: 8px;
-    grid-template-columns: 1fr 1fr 1fr 100px;
-    grid-template-rows: 1fr 1fr;
-    text-align: center;
+   
+    
 }
 
-div{
-
+.videos{
+    border: 1px solid black;
+    text-transform: uppercase;
+    font-family: 'Courier New', Courier, monospace;
+    height: 300px;
+    width: 300px; 
+    display: grid;
+    align-items: end;
+    justify-content: center;
+    margin: 1cm;
 }
 
 

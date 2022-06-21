@@ -38,6 +38,17 @@ font-weight: bolder;
 width: 300px;
 }
 
+nav{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background-color: #f2d0e0;
+    height: 100vh;
+    text-transform: uppercase;
+    font-weight: bolder;
+    width: 300px;
+    } 
+    
 .home{
     display: flex;
     align-items: center;
