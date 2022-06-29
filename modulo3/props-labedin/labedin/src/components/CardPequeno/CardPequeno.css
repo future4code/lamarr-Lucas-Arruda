@@ -1,0 +1,22 @@
+.contact {
+    display: flex;
+    align-items: center;
+    border: 1px solid black;
+    margin-bottom: 10px;    
+}
+
+.contact > img {
+    width: 40px;
+    margin: 0 5px;
+    border-radius: 50%;
+}
+
+.contact > h3{
+    margin-right: 5px;
+}
+
+
+
+
+
+
