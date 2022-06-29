@@ -28,7 +28,7 @@ function Post(props){
     console.log('Curtiu!')
   }
   
-  const onClickComentario = (ev) => {
+  const onClickComentario = () => {
     setComentando(!comentando)
     console.log(comentando)
   }
