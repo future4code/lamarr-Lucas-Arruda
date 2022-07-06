@@ -1,11 +1,12 @@
 import React, {useState} from 'react'
-import './style.css'
 
 import {IconeComContador} from '../IconeComContador/IconeComContador'
 import iconeCoracaoBranco from '../../img/favorite-white.svg'
 import iconeCoracaoPreto from '../../img/favorite.svg'
 import iconeComentario from '../../img/comment_icon.svg'
 import {SecaoComentario} from '../SecaoComentario/SecaoComentario'
+import { PostContainer, PostHeader, PostFooter, UserPhoto, PostPhoto  } from '../../style'
+
 
 
 
@@ -53,19 +54,19 @@ function Post(props){
     }
 
   return(
-    <div className = 'PostContainer'>
-      <div className = 'PostHeader'>
+    <PostContainer>
+      <PostHeader>
         
-        <img className = 'UserPhoto' src={props.fotoUsuario} alt={'Imagem do usuario'}/>
+        <UserPhoto src={props.fotoUsuario} alt={'Imagem do usuario'}/>
         <p>{props.nomeUsuario}</p>
         
-      </div>
+      </PostHeader>
 
       
-        <img className = 'PostPhoto'src={props.fotoPost} alt={'Imagem do post'}/>
+        <PostPhoto src={props.fotoPost} alt={'Imagem do post'}/>
         
 
-      <div className = 'PostFooter'>
+      <PostFooter>
         <IconeComContador
           icone={iconeCurtida}
           onClickIcone={onClickCurtida}
@@ -77,9 +78,9 @@ function Post(props){
           onClickIcone={onClickComentario}
           valorContador={numeroComentarios}
         />
-      </div>
+      </PostFooter>
       {componenteComentario}
-    </div>
+    </PostContainer>
 
   )
   

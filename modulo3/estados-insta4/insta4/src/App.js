@@ -28,7 +28,7 @@ let listagemGeral=listagem.map((e, i)=>{
       
 })
 
-console.log(listagem)
+console.log(listagemGeral)
 
 return(
   <MainContainer>
