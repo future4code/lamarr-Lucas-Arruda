@@ -55,11 +55,15 @@ function Post(props){
   return(
     <div className = 'PostContainer'>
       <div className = 'PostHeader'>
+        
         <img className = 'UserPhoto' src={props.fotoUsuario} alt={'Imagem do usuario'}/>
         <p>{props.nomeUsuario}</p>
+        
       </div>
 
-      <img className = 'PostPhoto'src={props.fotoPost} alt={'Imagem do post'}/>
+      
+        <img className = 'PostPhoto'src={props.fotoPost} alt={'Imagem do post'}/>
+        
 
       <div className = 'PostFooter'>
         <IconeComContador
