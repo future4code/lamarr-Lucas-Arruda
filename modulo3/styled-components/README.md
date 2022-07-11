@@ -1,1 +1,1 @@
-ritzy-support.surge.sh
+adaptable-jeans.surge.sh
