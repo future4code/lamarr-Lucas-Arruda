@@ -2,20 +2,6 @@ import styled from "styled-components";
 import { createGlobalStyle } from 'styled-components';
 
 
-const GlobalStyle = createGlobalStyle
-  body {
-    margin: 0;
-    padding: 0;
-  }
-
-  p {
-    margin: 0;
-  }
-
-;
-<GlobalStyle/>
-
-
 export const Formulario1 = styled.div`
 
     display: flex;
@@ -33,5 +19,5 @@ export const Formulario1 = styled.div`
         
     }
 
-    .
+    
 `
