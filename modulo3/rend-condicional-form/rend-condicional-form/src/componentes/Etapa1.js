@@ -1,19 +1,18 @@
-import styled from "styled-components";
 import { Formulario1 } from "../style";
 
 export function Etapa1() {
     return <Formulario1>
         <h1>Formulário</h1>
-            <label> Qual o seu nome?
-                <input type="text"/>
-            </label>
-            <label> Qual a sua idade?
-                <input type="text" />
-            </label>
-            <label> Qual seu email?
-                <input type="text"/>
-            </label>
-            <label>Qual a sua escolaridade?
+            <label> 1. Qual o seu nome?</label>
+                <input className="name" type="text"/>
+
+            <label> 2. Qual a sua idade?</label>
+                <input className="age" type="text" />
+            
+            <label> 3. Qual seu email?</label>
+                <input className="email" type="text"/>
+            
+            <label className="seletor">4. Qual a sua escolaridade?
                 <select>
                     <option>Ensino Médio Incompleto</option>
                     <option>Ensino Médio Completo</option>
@@ -21,6 +20,6 @@ export function Etapa1() {
                     <option>Ensino Superior Completo</option>
                     </select> 
             </label>
-
+        
     </Formulario1>
 }
