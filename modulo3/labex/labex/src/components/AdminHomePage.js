@@ -1,15 +1,12 @@
-import React from "react";
-import { useNavigate } from "react-router-dom";
-
+import React from "react"
+import { useNavigate } from "react-router-dom"
 
 const AdminHomePage=()=>{
-    const navigate=useNavigate();
-
-    return(
+    const navigate = useNavigate()
+    
+    return( 
         <>
-            <h1>Login</h1>
-            <ul typeof="email">email</ul>
-            <ul typeof="senha">senha</ul>
+            <h1>Area de Administrativa</h1>
         </>
     )
 }
